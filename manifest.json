@@ -1,0 +1,19 @@
+{
+
+  "description": "Better Beg Betting",
+  "manifest_version": 2,
+  "name": "Destitution",
+  "version": "1.0",
+  "homepage_url": "https://github.com/wgreenberg/destitution",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.blaseball.com/*"],
+      "js": ["destitution.js"]
+    }
+  ]
+
+}
